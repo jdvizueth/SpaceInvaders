@@ -1,0 +1,9 @@
+Feature:
+Multiple Waves
+
+Process:
+modified the __init__ method in Wave so that it would accept custom speeds for the aliens
+and custom values for _lives. This allowed me to keep the old value for _lives and keep
+the old value of the speed. Each time a wave ended, the speed of the aliens decreases by 0.1
+until such speed is equal or less than 0. Once the speed of the aliens reaches 0 or lower,
+then the game ends and the player wins.
